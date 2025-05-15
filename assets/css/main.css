@@ -1696,10 +1696,11 @@ section,
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 20px;
+  color: #0096a7;
 }
 
 .pricing h4 {
-  color: var(--accent-color);
+  color: #182657;
   font-size: 48px;
   font-weight: 400;
   font-family: var(--heading-font);
