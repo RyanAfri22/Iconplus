@@ -519,7 +519,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: var(--background-color);
-  background-color: var(--surface-color);
+  background-color: #182657;
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
@@ -556,7 +556,7 @@ h6 {
   padding: 4px;
   width: 100%;
   background-color: color-mix(in srgb, var(--background-color), transparent 50%);
-  color: var(--default-color);
+  color: var(--backrgound-color);
 }
 
 .footer .footer-newsletter .newsletter-form input[type=email]:focus-visible {
@@ -591,13 +591,13 @@ h6 {
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--background-color), transparent 20%);
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
+  color: var(--background-color);
   border-color: var(--accent-color);
 }
 
@@ -622,7 +622,7 @@ h6 {
   margin-right: 3px;
   font-size: 12px;
   line-height: 0;
-  color: var(--accent-color);
+  color: var(--background-color);
 }
 
 .footer .footer-links ul li {
@@ -637,7 +637,7 @@ h6 {
 
 .footer .footer-links ul a {
   display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--background-color), transparent 20%);
   line-height: 1;
 }
 
@@ -646,7 +646,7 @@ h6 {
 }
 
 .footer .footer-about a {
-  color: var(--heading-color);
+  color: var(--background-color);
   font-size: 28px;
   font-weight: 600;
   text-transform: uppercase;
